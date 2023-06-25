@@ -1,0 +1,105 @@
+/*.container {
+
+    width: 90vm;
+    height: 80vh;
+    border: 2px solid black;
+    background-color: rgb(17, 138, 190);
+    padding: 20px;
+}*/
+
+/*.box{
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    display: inline-block;
+
+    color: white;
+    position: relative;
+}
+
+.box :nth-last-of-type(1){
+    background-color: antiquewhite;
+    left: 50px;
+    top: 50px;
+    z-index: 4;
+}
+
+.box :nth-last-of-type(2){
+
+    left: 50px;
+    top: 50px;
+    z-index: 4;
+}
+.box :nth-last-of-type(3){
+    left: 50px;
+    top: 50px;
+    z-index: 4;
+}*/
+
+section {
+    width: 100vm;
+    height: 100vm;
+    background-image: url(https://img.freepik.com/free-photo/abstract-background-illustration-watercolor-blue-green_53876-108704.jpg?size=626&ext=jpg&ga=GA1.1.857588238.1683710313&semt=ais);
+    
+
+}
+*{
+    margin: 0;
+}
+html{
+    padding: 20px;
+    font: 12px/20px Arial, sans-serif ;
+}
+div{
+    opacity: 0.9;
+    position: relative;
+}
+h1{
+    font: inherit;
+    font-weight: bold;
+}
+#div1{
+    z-index: 1;
+    margin: 100px;
+}
+#div2{
+    z-index: 2;
+    margin: 100px;
+    padding: 80px;
+    border: 2px solid black;
+    background-color: azure;
+    
+}
+#div3{
+    z-index: 3;
+    margin: 100px;
+    padding: 80px;
+    border: 2px solid black;
+    background-color: rgb(52, 134, 134);
+    
+}
+#div4{
+    z-index: 4;
+    margin: 100px;
+    padding: 80px;
+    border: 2px solid black;
+    background-color: rgb(145, 19, 165);
+    
+}
+#div5{
+    z-index: 5;
+    margin: 100px;
+    padding: 80px;
+    border: 2px solid black;
+    background-color: rgb(159, 202, 41);
+    
+}
+#div6{
+    z-index: 2;
+    margin: 100px;
+    padding: 80px;
+    border: 2px solid black;
+    background-color: rgb(143, 11, 11);
+    text-align: center;
+    
+}

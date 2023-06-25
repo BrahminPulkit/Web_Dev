@@ -1,0 +1,23 @@
+section > h1{
+    color: red;
+    text-align: center;
+    font-size: 3em;
+}
+
+section{
+    max-width: 80vw;
+    max-height: 40vh;
+    border: 2px solid black;
+
+}
+@media all and (min-widht:450px), (orientation:landscape){
+    section > h1{
+        color: blueviolet;
+        font-size: 2.1em;
+
+    }
+    section{
+        background-color: coral;
+        color: white;
+    }
+}
